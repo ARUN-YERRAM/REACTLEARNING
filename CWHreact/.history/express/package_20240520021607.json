@@ -1,0 +1,14 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "project manager",
+  "main": "express_02.js",
+  "scripts": {
+    "start": ""
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "",
+  "license": "ISC"
+}

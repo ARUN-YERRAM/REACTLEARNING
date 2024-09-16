@@ -1,0 +1,22 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "project manager",
+  "main": "express_02.js",
+  "type": "module",
+  "scripts": {
+    "start": "node express_02.js",
+    "dev":"nodemon express_02"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
