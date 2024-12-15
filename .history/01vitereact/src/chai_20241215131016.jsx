@@ -6,17 +6,17 @@ function Chai(){
         <table>
             <thead> 
                 <tr>
-                    <th>Name</th>
-                    <th>Amount</th>
-                    <th>Date</th>
-                    <th>Action</th>
+                    <th></th>
+
+
+
+
                 </tr>
             </thead>
 
             <tbody>
 
                 </tbody>
-            
         </table>
 
         </>

@@ -42,9 +42,11 @@ function InputBox({
                             {currency}
                             </option>
                         ))}
+                
                 </select>
             </div>
         </div>
     );
 }
+
 export default InputBox;

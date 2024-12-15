@@ -1,0 +1,11 @@
+function Chai(){
+    return(
+        <h3>chai is ready</h3>
+        <table>
+            
+        </table>
+
+    )
+}
+
+export default Chai;

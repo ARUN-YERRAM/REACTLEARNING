@@ -26,15 +26,13 @@ function App() {
 
   const copyPasswordToClipboard = useCallback(() => {
     passwordRef.current?.select();
-    passwordRef.current?.setSelectionRange(0, 12);
+    passwordRef.current?.setSelectionRange(0, 999);
     window.navigator.clipboard.writeText(password)
   }, [password])
-
 
   useEffect(() => {
     passwordGenerator()
   }, [length, numberAllowed, charAllowed, passwordGenerator])
-
   return (
     
     <div className="w-full max-w-md mx-auto shadow-md rounded-lg px-4 py-8 my-20 bg-gray-800 text-orange-500">
@@ -57,7 +55,7 @@ function App() {
     </div>
 
     <div className='flex text-sm gap-x-2'>
-      <div className='flex items-center gap-x-1'>
+      <div className='flex items-center gap-x-2'>
         <input 
         type="range"
         min={6}
@@ -66,7 +64,7 @@ function App() {
          className='cursor-pointer'
          onChange={(e) => {setLength(e.target.value)}}
           />
-      <label>Length:{length}</label>
+      <label>Length: {length}      </label>
       </div>
 
       <div className="flex items-center gap-x-1">
